@@ -1,0 +1,865 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Main_32Room",
+  "name": "Main Room",
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "Main Room",
+  "v": 0,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 16,
+    "gridHeight": 16,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.6244537826599994,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "b671a3fd-b340-4b18-9105-ff47374885cb",
+      "width": 272,
+      "x": 512,
+      "y": 448,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "32f4fa86-0dec-4c98-bbdc-24eb29fa2d52",
+      "width": 144,
+      "x": 576,
+      "y": 400,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "c7908605-fc81-4a61-9125-47ca0441c340",
+      "width": 272,
+      "x": 512,
+      "y": 240,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "9d254a9a-c4b4-4210-b40b-7848b7047738",
+      "width": 272,
+      "x": 512,
+      "y": 192,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "1afd9354-46d7-4cbb-867f-67b746a8f0b5",
+      "width": 84,
+      "x": 512,
+      "y": 400,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "1a02a25e-8f5f-49b5-a424-0c5b2f3c0f3d",
+      "width": 84,
+      "x": 700,
+      "y": 400,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 8,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "a246e2bb-36cb-449c-83e7-f58f9122c90f",
+      "width": 84,
+      "x": 512,
+      "y": 392,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 8,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "812decf3-e298-4376-9319-cba75243f3a7",
+      "width": 84,
+      "x": 700,
+      "y": 392,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "856b0d82-8036-4242-b8f4-c6b7a6ca2213",
+      "width": 272,
+      "x": 512,
+      "y": 176,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "ea7e3e34-ebd4-4ea2-8d8f-2053d0c26d7c",
+      "width": 48,
+      "x": 624,
+      "y": 576,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "54837579-f503-43a2-8676-74350b05866a",
+      "width": 0,
+      "x": 512,
+      "y": 408,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "a5569369-38ac-42af-817f-6e1a895bff71",
+      "width": 0,
+      "x": 768,
+      "y": 408,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "45281647-862a-4ac0-ab5d-67e6d4b2b1c7",
+      "width": 0,
+      "x": 576,
+      "y": 408,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "b6249bf8-f00f-4e2e-b692-0a822f52124d",
+      "width": 0,
+      "x": 704,
+      "y": 408,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "61e26c63-1d78-46cb-b99e-4c6384ed161d",
+      "width": 16,
+      "x": 512,
+      "y": 384,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "3dee73f2-dfd8-4012-9027-7a4c893c06a9",
+      "width": 16,
+      "x": 768,
+      "y": 384,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "a5197304-8a0a-4b70-afc3-cbdf6c297350",
+      "width": 16,
+      "x": 704,
+      "y": 384,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "73ab2d3d-f4cd-4e55-bfed-dfe78155a044",
+      "width": 16,
+      "x": 576,
+      "y": 384,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "13ad9ca8-7b0f-4b1a-bdf0-afdf7191741e",
+      "width": 48,
+      "x": 576,
+      "y": 200,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "6674cf49-9329-4a51-8e8f-2e1eccc010db",
+      "width": 0,
+      "x": 592,
+      "y": 208,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "4d4b9d80-5ee2-4e1a-87e1-794cfc18fb79",
+      "width": 0,
+      "x": 592,
+      "y": 192,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "8a0dd83c-6d74-49cd-bc88-5afe00d99231",
+      "width": 48,
+      "x": 576,
+      "y": 160,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "ed25fc4e-b8a1-4e79-bd30-c6d733d1ab64",
+      "width": 48,
+      "x": 672,
+      "y": 160,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "038acc96-2dcf-4048-ac81-afb39ed213b9",
+      "width": 48,
+      "x": 672,
+      "y": 200,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "c0a02d3a-7e19-4b14-8cb7-7a74589c462e",
+      "width": 0,
+      "x": 688,
+      "y": 208,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "1f77b233-368b-4809-9d7e-9cf6ca71cb05",
+      "width": 0,
+      "x": 688,
+      "y": 192,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "731ce2c0-844a-4bab-8487-a22fe5a450de",
+      "width": 0,
+      "x": 512,
+      "y": 208,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "495fcf89-d9ce-48c3-b0d1-9e3053857919",
+      "width": 0,
+      "x": 768,
+      "y": 208,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "2652963a-81d7-4947-951f-e051f0048833",
+      "width": 0,
+      "x": 768,
+      "y": 192,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "caaeefb4-5657-4fb2-a758-978619509b1b",
+      "width": 0,
+      "x": 512,
+      "y": 192,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 8,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "3690c7fa-c39b-45da-8889-88cc13c8a328",
+      "width": 112,
+      "x": 512,
+      "y": 568,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 8,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "c5426231-e09a-4401-9a76-5f1c62f04308",
+      "width": 112,
+      "x": 672,
+      "y": 568,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "b0c8bf56-d622-448f-92f9-a007a188af73",
+      "width": 0,
+      "x": 768,
+      "y": 560,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "309a7dc5-51cd-44fd-956c-dbd871171439",
+      "width": 0,
+      "x": 512,
+      "y": 560,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "2578019d-9032-4d56-9863-0738e9ac1414",
+      "width": 16,
+      "x": 608,
+      "y": 560,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "e77a4219-37c7-4396-9e28-07f29efb96e0",
+      "width": 16,
+      "x": 672,
+      "y": 560,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 8,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "c78997bd-39be-4833-8441-21b308c42acc",
+      "width": 48,
+      "x": 624,
+      "y": 584,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_player",
+      "persistentUuid": "553be06f-acca-4a61-b289-c23647646fb0",
+      "width": 32,
+      "x": 640,
+      "y": 525,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 16,
+      "leftMargin": 0,
+      "name": "tile_floor_1",
+      "rightMargin": 0,
+      "texture": "spr_tile_floor_1",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 48,
+      "name": "tile_wall_1",
+      "texture": "spr_tile_wall_1",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "tile_black_1",
+      "texture": "spr_tile_black_1",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "obj_collision_tile",
+      "texture": "spr_tile_collision",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "tile_floor_1"
+      },
+      {
+        "objectName": "tile_black_1"
+      },
+      {
+        "objectName": "tile_wall_1"
+      },
+      {
+        "objectName": "obj_collision_tile"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "3",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "playerEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "obj_player",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
+}
