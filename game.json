@@ -243,6 +243,448 @@
         "name": "assets\\sprites\\player\\spr_player_idle_up_4.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fireball_Projectile_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fireball_Projectile_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/Projectile/a6e2b639a16c477726113bec0c2a136a11c17a8aaa9d93d5758670da579c7fe7_Fireball_Projectile_1.png",
+          "name": "Fireball_Projectile_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fireball_Projectile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fireball_Projectile_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/Projectile/6a18f41e1cb77216730f1696bb2f16c97c1af75778d3c4b9b8619be807a2abab_Fireball_Projectile_2.png",
+          "name": "Fireball_Projectile_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fireball_Projectile_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fireball_Projectile_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 8/Projectile/0f85e5a801c2ac82a6bea43213a70fe44164188166f87dee8d3f923b8d5fd9a4_Fireball_Projectile_3.png",
+          "name": "Fireball_Projectile_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/f4a5109996c49ffc3479682a688783c452b955d5f717d4f0047811480d4befe8_Ice Pick_1.png",
+          "name": "Ice Pick_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/b8d15905317986cd24e439dda1a4e0c5f5529e4d223732dba41b55f454d22f57_Ice Pick_10.png",
+          "name": "Ice Pick_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/b828173706b4ae2a9b931504b2166411928ab354577e183d62bb1ca5a372cf8c_Ice Pick_11.png",
+          "name": "Ice Pick_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/efcfdc110fe7ae6b308bbe42cd7a04709541901625b791113ad339c2c11a6d07_Ice Pick_12.png",
+          "name": "Ice Pick_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/569fd4a8c44b0138e3407e8367045a24c00f211f7708359624a641231580aee5_Ice Pick_13.png",
+          "name": "Ice Pick_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/caa5558a5eec39bee728045e2038da84f316c2fc4ef9c03a27b3acda68f20aab_Ice Pick_14.png",
+          "name": "Ice Pick_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/215fa8942bc1372be1b18c6be046c5db4d9a6a5c372e017e1d6906159df68a85_Ice Pick_15.png",
+          "name": "Ice Pick_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/f65ad26934394961e1ddb65c018daec17e5108714bab770f2fa6cd5feeb7f9fc_Ice Pick_16.png",
+          "name": "Ice Pick_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/c6997003f9d1fb665d3d525ebb25b469eccec51d80b248d97a6432c2abe98429_Ice Pick_17.png",
+          "name": "Ice Pick_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a3b339d322160f9346323944155e355f0bbe427c2e01d4234fd2e564fb17a818_Ice Pick_18.png",
+          "name": "Ice Pick_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/b460fce8aca2a95214ea6cfb11878f83bbcdb7ff9ddd7f27fe846ef865c3ca32_Ice Pick_19.png",
+          "name": "Ice Pick_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/f5e7cd0eb64213b123d58d590cc75bbad37db1dae0cd03ebb921d72a9d88f383_Ice Pick_2.png",
+          "name": "Ice Pick_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/4f175ddbd484ae9b97f7999d441c31756b3bd0f370170c7a7b058cb1e159840d_Ice Pick_20.png",
+          "name": "Ice Pick_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/9e744c485de032b21f52038627e4c861883568b20fd8e9834fce4ffbcf8128a7_Ice Pick_21.png",
+          "name": "Ice Pick_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/d17e8adb5c5a9f3c5b11ab7710a1500f6956b764e3b9c05abc5ccbf76aeb08a3_Ice Pick_22.png",
+          "name": "Ice Pick_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/8090fde08a568e531d2fbf0d671fcf1f284393f29474b899359c7cf68412bc2c_Ice Pick_23.png",
+          "name": "Ice Pick_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/c6717387c7c9faa7d9c866f71bcca5f04b53816f8cfe5f7400c241a11ac23dd5_Ice Pick_24.png",
+          "name": "Ice Pick_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a9b1f6392d968b26776eab3a81c833d42e48b8af7e765d645d44e003188742fb_Ice Pick_25.png",
+          "name": "Ice Pick_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/ec066f7f6282f45c3111ce10ffc006c9a0abbab8176319a749cdaf24b0925724_Ice Pick_26.png",
+          "name": "Ice Pick_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/69d9472dc0a4957de5cc17b7a234f7bcc7fa8d1f71245ba9f9acf861eb555840_Ice Pick_27.png",
+          "name": "Ice Pick_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/4ef4f90b092da3f1e81d882e7aeb60a3b3100a4607ed13c23006f627ed7a625f_Ice Pick_28.png",
+          "name": "Ice Pick_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/59ca6685984657f86bca7dba8f26caf935d840703c0c46889687cedbf0fbe86f_Ice Pick_29.png",
+          "name": "Ice Pick_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/61bce3fd2b033dd903d249da526f2c2a367e1881c41b2f4043252613ac58b15e_Ice Pick_3.png",
+          "name": "Ice Pick_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/25badc4893b36b55aadf88335a0dff2393b1c1812f599f22cb6b2b182d72277c_Ice Pick_30.png",
+          "name": "Ice Pick_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/aba9af87993b182a253bece05fd48260c93463913b16f36dde38a08647f86178_Ice Pick_4.png",
+          "name": "Ice Pick_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/d852f3cb336e941edcdc363e1bb454e850958fcbe673b3b94155833e637092e4_Ice Pick_5.png",
+          "name": "Ice Pick_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/75659bc2f1c451c6399bcc9c011e59b6cb4f005d7bc6f923f768cea7b856c1fd_Ice Pick_6.png",
+          "name": "Ice Pick_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/860da26b252d0d52b30008f4f1caf4c1fb706a98612cd05276be2a06feb72a8c_Ice Pick_7.png",
+          "name": "Ice Pick_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/e5d19bdd6be29705dfa4867cc5eb47ef655303f34b207f8ce8a27b89627abc42_Ice Pick_8.png",
+          "name": "Ice Pick_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice Pick_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/cb57d64277ab7e032fe71003928fe0d2de8715882788d2563866dbb15ae7007e_Ice Pick_9.png",
+          "name": "Ice Pick_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/3ac4ccfca394be1b0e90c245ed85246d69ad1324d0cc398d74b9a944f9e14605_Right-Arrow.png",
+          "name": "Right-Arrow.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -277,6 +719,38 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 800,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -286,9 +760,7 @@
           "ignoreDefaultControls": true,
           "maxSpeed": 160,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -305,7 +777,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_down.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -341,7 +819,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_down2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -377,7 +861,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_down3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -413,7 +903,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_down4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -462,7 +958,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_right.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -498,7 +1000,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_right2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -534,7 +1042,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_right3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -570,7 +1084,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_right4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -619,7 +1139,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_up_1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -655,7 +1181,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_up_2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -691,7 +1223,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_up_3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -727,7 +1265,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\sprites\\player\\spr_player_idle_up_4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "ArrowPoint",
+                      "x": 16,
+                      "y": 32
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 16,
@@ -797,6 +1341,14 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ysort"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
