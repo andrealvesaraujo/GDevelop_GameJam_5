@@ -9,7 +9,7 @@
   "title": "Main Room",
   "v": 0,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 1.2121641972173676,
+    "snap": false,
+    "zoomFactor": 3.3888803654333377,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -652,6 +652,23 @@
       "x": 640,
       "y": 525,
       "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.1594202898550723,
+      "height": 11.594202898550725,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DirectionArrow",
+      "persistentUuid": "69fe84ec-b2e5-47cf-a5f9-12809616460b",
+      "width": 80,
+      "x": 640,
+      "y": 508,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1950,8 +1967,8 @@
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "f54fecd6e221a9968e175ebdb5171185c3e13bdc56282776270df4f791575ab8",
-      "name": "RightArrow",
+      "assetStoreId": "ccfe28b6797f3c294f7c22cab550560fae952f936ac287408d8666d189ccb4d1",
+      "name": "DirectionArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1959,21 +1976,22 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "RightArrow",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Right-Arrow.png",
+                  "image": "Up-Arrow2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 7,
-                    "y": 7
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1984,20 +2002,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 90,
                         "y": 0
                       },
                       {
-                        "x": 14,
+                        "x": 120,
                         "y": 0
                       },
                       {
-                        "x": 14,
-                        "y": 14
+                        "x": 120,
+                        "y": 30
                       },
                       {
-                        "x": 0,
-                        "y": 14
+                        "x": 90,
+                        "y": 30
                       }
                     ]
                   ]
@@ -2031,7 +2049,7 @@
         "objectName": "IcePick"
       },
       {
-        "objectName": "RightArrow"
+        "objectName": "DirectionArrow"
       }
     ]
   },
