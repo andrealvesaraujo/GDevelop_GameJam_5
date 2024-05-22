@@ -9,7 +9,7 @@
   "title": "Main Room",
   "v": 0,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 16,
     "gridHeight": 16,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 3.3888803654333377,
+    "snap": true,
+    "zoomFactor": 1.25303877405899,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -53,7 +53,7 @@
       "width": 144,
       "x": 576,
       "y": 400,
-      "zOrder": 2,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -70,7 +70,7 @@
       "width": 272,
       "x": 512,
       "y": 240,
-      "zOrder": 3,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -138,7 +138,7 @@
       "width": 84,
       "x": 512,
       "y": 392,
-      "zOrder": 7,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -155,7 +155,7 @@
       "width": 84,
       "x": 700,
       "y": 392,
-      "zOrder": 8,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -189,7 +189,7 @@
       "width": 48,
       "x": 624,
       "y": 576,
-      "zOrder": 13,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -270,7 +270,7 @@
       "width": 16,
       "x": 512,
       "y": 384,
-      "zOrder": 21,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -287,7 +287,7 @@
       "width": 16,
       "x": 768,
       "y": 384,
-      "zOrder": 22,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -304,7 +304,7 @@
       "width": 16,
       "x": 704,
       "y": 384,
-      "zOrder": 23,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -321,7 +321,7 @@
       "width": 16,
       "x": 576,
       "y": 384,
-      "zOrder": 24,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -534,7 +534,7 @@
       "width": 112,
       "x": 512,
       "y": 568,
-      "zOrder": 33,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -551,7 +551,7 @@
       "width": 112,
       "x": 672,
       "y": 568,
-      "zOrder": 33,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -567,7 +567,7 @@
       "width": 0,
       "x": 768,
       "y": 560,
-      "zOrder": 34,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -583,7 +583,7 @@
       "width": 0,
       "x": 512,
       "y": 560,
-      "zOrder": 35,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -600,7 +600,7 @@
       "width": 16,
       "x": 608,
       "y": 560,
-      "zOrder": 36,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -617,7 +617,7 @@
       "width": 16,
       "x": 672,
       "y": 560,
-      "zOrder": 37,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -634,7 +634,7 @@
       "width": 48,
       "x": 624,
       "y": 584,
-      "zOrder": 38,
+      "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -658,17 +658,142 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1.1594202898550723,
-      "height": 11.594202898550725,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "DirectionArrow",
-      "persistentUuid": "69fe84ec-b2e5-47cf-a5f9-12809616460b",
-      "width": 80,
+      "persistentUuid": "4e9c2935-bef6-484d-98d4-eed9cfaa3820",
+      "width": 0,
+      "x": 632,
+      "y": 498,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_torch",
+      "persistentUuid": "bea2942e-8087-4bb7-9283-60bb420ede18",
+      "width": 0,
+      "x": 576,
+      "y": 448,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_torch",
+      "persistentUuid": "5f05f6fa-5e80-4279-9c7b-2851812f583d",
+      "width": 0,
+      "x": 704,
+      "y": 448,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "lit",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "8205ae6b-07de-4598-b4ef-b86e31bc5786",
+      "width": 0,
+      "x": 608,
+      "y": 432,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "5a475640-1813-4a08-8ae4-d43a4e859050",
+      "width": 0,
       "x": 640,
-      "y": 508,
-      "zOrder": 40,
+      "y": 432,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "melted",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "4e0122db-0a55-4fbd-b8ce-d6b98db94d65",
+      "width": 0,
+      "x": 672,
+      "y": 432,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_barrier_wood",
+      "persistentUuid": "b04fbf8e-0db9-499b-ae80-24e5c5230743",
+      "width": 0,
+      "x": 624,
+      "y": 416,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_barrier_wood",
+      "persistentUuid": "7f28872f-405b-4f47-81de-951f6d1510ff",
+      "width": 0,
+      "x": 656,
+      "y": 416,
+      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -731,30 +856,49 @@
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "fcc1ada16e6add83eaf9939e9b4fd692bc4473d3d2ea040acc07ce0a90af533e",
-      "name": "Fireball",
+      "assetStoreId": "",
+      "name": "obj_torch",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "lit",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
         {
-          "name": "Projectile",
+          "name": "anim_torch_unlit",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.125,
+              "looping": false,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fireball_Projectile_1.png",
-                  "points": [],
+                  "image": "assets\\sprites\\objects\\spr_torch_unlit.png",
+                  "points": [
+                    {
+                      "name": "fire",
+                      "x": 8,
+                      "y": 12
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 8,
-                    "y": 8
+                    "x": 0,
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -765,92 +909,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
+                        "x": 1,
                         "y": 9
                       },
                       {
-                        "x": 0,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Fireball_Projectile_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 8,
-                    "y": 8
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
+                        "x": 15,
                         "y": 9
                       },
                       {
-                        "x": 0,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Fireball_Projectile_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 8,
-                    "y": 8
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
+                        "x": 15,
+                        "y": 31
                       },
                       {
-                        "x": 16,
-                        "y": 0
-                      },
-                      {
-                        "x": 16,
-                        "y": 9
-                      },
-                      {
-                        "x": 0,
-                        "y": 9
+                        "x": 1,
+                        "y": 31
                       }
                     ]
                   ]
@@ -858,1135 +930,224 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "474e1202f99ef84dd23a0786132c017f3c48b6842fbe09b51f866c7839d4a339",
-      "name": "IcePick",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
+        },
         {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.0333,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_11.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_12.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_13.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_14.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_15.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_16.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_17.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_18.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_19.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_20.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_21.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_22.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_23.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_24.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_25.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_26.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_27.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_28.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_29.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Ice Pick_30.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 32,
-                    "y": 32
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 26
-                      },
-                      {
-                        "x": 64,
-                        "y": 39
-                      },
-                      {
-                        "x": 3,
-                        "y": 39
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "ccfe28b6797f3c294f7c22cab550560fae952f936ac287408d8666d189ccb4d1",
-      "name": "DirectionArrow",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "RightArrow",
+          "name": "anim_torch_lit",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.025,
+              "timeBetweenFrames": 0.16666666666666666,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Up-Arrow2",
+                  "image": "assets\\sprites\\objects\\spr_torch_lit_0.png",
+                  "points": [
+                    {
+                      "name": "fire",
+                      "x": 8,
+                      "y": 12
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\objects\\spr_torch_lit_1.png",
+                  "points": [
+                    {
+                      "name": "fire",
+                      "x": 8,
+                      "y": 12
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\objects\\spr_torch_lit_2.png",
+                  "points": [
+                    {
+                      "name": "fire",
+                      "x": 8,
+                      "y": 12
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\objects\\spr_torch_lit_3.png",
+                  "points": [
+                    {
+                      "name": "fire",
+                      "x": 8,
+                      "y": 12
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 15,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_ice",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "melted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "anim_ice_cube",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\objects\\spr_ice_cube.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2002,20 +1163,185 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 90,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 120,
+                        "x": 15,
                         "y": 0
                       },
                       {
-                        "x": 120,
-                        "y": 30
+                        "x": 15,
+                        "y": 16
                       },
                       {
-                        "x": 90,
-                        "y": 30
+                        "x": 1,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "anim_ice_melted",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\objects\\spr_ice_melted.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 15,
+                        "y": 16
+                      },
+                      {
+                        "x": 1,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_barrier_wood",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "burnt",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "anim_barrier_intact",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\objects\\spr_wood_barrier.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 3
+                      },
+                      {
+                        "x": 15,
+                        "y": 3
+                      },
+                      {
+                        "x": 15,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "anim_barrier_burnt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\sprites\\objects\\spr_barrier_burnt.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 3
+                      },
+                      {
+                        "x": 15,
+                        "y": 3
+                      },
+                      {
+                        "x": 15,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
                       }
                     ]
                   ]
@@ -2034,6 +1360,9 @@
         "objectName": "tile_floor_1"
       },
       {
+        "objectName": "obj_barrier_wood"
+      },
+      {
         "objectName": "tile_black_1"
       },
       {
@@ -2043,13 +1372,10 @@
         "objectName": "obj_collision_tile"
       },
       {
-        "objectName": "Fireball"
+        "objectName": "obj_torch"
       },
       {
-        "objectName": "IcePick"
-      },
-      {
-        "objectName": "DirectionArrow"
+        "objectName": "obj_ice"
       }
     ]
   },
@@ -2085,6 +1411,26 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "tile_floor_1",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "tile_black_1",
+            "=",
+            "100"
+          ]
         }
       ]
     },
@@ -2104,9 +1450,9 @@
             "value": "CentreCamera"
           },
           "parameters": [
-            "",
             "obj_player",
-            "",
+            "obj_player",
+            "no",
             "",
             ""
           ]
@@ -2128,6 +1474,513 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 33,
+      "colorG": 211,
+      "colorR": 126,
+      "creationTime": 0,
+      "name": "Interactables",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 74,
+          "colorR": 210,
+          "creationTime": 0,
+          "name": "Torch",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_torch",
+                    "lit",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_torch",
+                    "Animation",
+                    "=",
+                    "\"anim_torch_lit\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_torch",
+                    "lit",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_torch",
+                    "Animation",
+                    "=",
+                    "\"anim_torch_unlit\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Projectile Contact"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_torch",
+                    "lit",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "skill_projectile_ice",
+                    "obj_torch",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "skill_projectile_ice",
+                    "obj_torch.PointX(\"fire\")",
+                    "obj_torch.PointY(\"fire\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_torch",
+                    "lit",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_torch",
+                    "lit",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "skill_projectile_fire",
+                    "obj_torch",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "skill_projectile_fire",
+                    "obj_torch.PointX(\"fire\")",
+                    "obj_torch.PointY(\"fire\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_torch",
+                    "lit",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 74,
+          "colorR": 215,
+          "creationTime": 0,
+          "name": "Ice Cube",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_ice",
+                    "melted",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_ice",
+                    "Animation",
+                    "=",
+                    "\"anim_ice_melted\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "obj_ice",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_ice",
+                    "melted",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_ice",
+                    "Animation",
+                    "=",
+                    "\"anim_ice_cube\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "obj_ice",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Projectile Contact"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_ice",
+                    "melted",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "skill_projectile_ice",
+                    "obj_ice",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_ice",
+                    "melted",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_ice",
+                    "melted",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "skill_projectile_fire",
+                    "obj_ice",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_ice",
+                    "melted",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 74,
+          "colorG": 128,
+          "colorR": 228,
+          "creationTime": 0,
+          "name": "Wooden Barrier",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_barrier_wood",
+                    "burnt",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_barrier_wood",
+                    "Animation",
+                    "=",
+                    "\"anim_barrier_burnt\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "obj_barrier_wood",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_barrier_wood",
+                    "burnt",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_barrier_wood",
+                    "Animation",
+                    "=",
+                    "\"anim_barrier_intact\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "obj_barrier_wood",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Projectile Contact"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_barrier_wood",
+                    "burnt",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "skill_projectile_fire",
+                    "obj_barrier_wood",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "obj_barrier_wood",
+                    "burnt",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
