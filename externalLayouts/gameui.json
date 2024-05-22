@@ -1,0 +1,84 @@
+{
+  "associatedLayout": "Main Room",
+  "name": "gameUI",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "ui",
+      "name": "ui_skill_state",
+      "persistentUuid": "48eba88f-14a9-47f8-b2f7-a3307d2f77ae",
+      "width": 96,
+      "x": 7,
+      "y": 8,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "ui",
+      "name": "ui_key",
+      "persistentUuid": "d6c97a8c-cd5b-46cf-a252-d6b476e88d49",
+      "width": 96,
+      "x": 103,
+      "y": 24,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "ui",
+      "name": "ui_key",
+      "persistentUuid": "8b6c47a6-92b8-4fb1-9290-b900b0146a8a",
+      "width": 96,
+      "x": 167,
+      "y": 24,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.546875,
+    "windowMask": false
+  }
+}

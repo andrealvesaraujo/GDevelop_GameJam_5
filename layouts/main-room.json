@@ -1,13 +1,13 @@
 {
-  "b": 0,
+  "b": 255,
   "disableInputWhenNotFocused": true,
   "mangledName": "Main_32Room",
   "name": "Main Room",
-  "r": 0,
+  "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "Main Room",
-  "v": 0,
+  "v": 255,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.25303877405899,
+    "zoomFactor": 0.8416428125373158,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -662,7 +662,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "DirectionArrow",
+      "name": "ui_direction_arrow",
       "persistentUuid": "4e9c2935-bef6-484d-98d4-eed9cfaa3820",
       "width": 0,
       "x": 632,
@@ -794,6 +794,115 @@
       "x": 656,
       "y": 416,
       "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_door",
+      "persistentUuid": "56328216-8e82-411e-8038-f6f5a7e52b4b",
+      "width": 0,
+      "x": 544,
+      "y": 208,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_door",
+      "persistentUuid": "4b50261a-53bc-44cd-bcf6-1abcb3d6a744",
+      "width": 0,
+      "x": 736,
+      "y": 208,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "inverted",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_big_door",
+      "persistentUuid": "05a64189-3fef-4850-b522-18645655eea0",
+      "width": 0,
+      "x": 624,
+      "y": 192,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collectable_key",
+      "persistentUuid": "763383c6-8ace-4f78-a1fd-bbf9258b0e86",
+      "width": 0,
+      "x": 528,
+      "y": 464,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collectable_key",
+      "persistentUuid": "cd4b07d4-baba-4c14-8797-c5e52781e55d",
+      "width": 0,
+      "x": 752,
+      "y": 464,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "eca55d55-a1f8-438b-a1fe-fce49e422fda",
+      "width": 0,
+      "x": 608,
+      "y": 256,
+      "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1351,16 +1460,256 @@
           ]
         }
       ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "eb5e9175253b62a77c90771a6758de493be966b47e25d5debc70fef52d50db9b",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 10,
+      "emitterForceMax": 20,
+      "emitterForceMin": 5,
+      "flow": 5,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 30,
+      "name": "particle_torch_sparks",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 0,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 0,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 1,
+      "particleLifeTimeMin": 0.2,
+      "particleRed1": 255,
+      "particleRed2": 204,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 2,
+      "rendererParam2": 1,
+      "rendererType": "Line",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 2,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_door",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "inverted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "spr_door",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "spr_door",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 31
+                      },
+                      {
+                        "x": 0,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_big_door",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "anim_door_big",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "spr_door_big",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 41,
+                        "y": 3
+                      },
+                      {
+                        "x": 41,
+                        "y": 48
+                      },
+                      {
+                        "x": 7,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_collectable_key",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "anim_key_item",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ui_key.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 3
+                      },
+                      {
+                        "x": 10,
+                        "y": 3
+                      },
+                      {
+                        "x": 10,
+                        "y": 13
+                      },
+                      {
+                        "x": 5,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "tile_floor_1"
+        "objectName": "obj_barrier_wood"
       },
       {
-        "objectName": "obj_barrier_wood"
+        "objectName": "tile_floor_1"
       },
       {
         "objectName": "tile_black_1"
@@ -1376,6 +1725,18 @@
       },
       {
         "objectName": "obj_ice"
+      },
+      {
+        "objectName": "particle_torch_sparks"
+      },
+      {
+        "objectName": "obj_door"
+      },
+      {
+        "objectName": "obj_big_door"
+      },
+      {
+        "objectName": "obj_collectable_key"
       }
     ]
   },
@@ -1427,9 +1788,81 @@
             "value": "ChangePlan"
           },
           "parameters": [
+            "tile_wall_1",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "obj_door",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
             "tile_black_1",
             "=",
             "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "obj_collision_tile",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"gameUI\"",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "obj_door",
+                "inverted",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "obj_door",
+                "Flippable",
+                "yes"
+              ]
+            }
           ]
         }
       ]
@@ -1474,6 +1907,255 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Collectable Key",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_collectable_key",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "keyNumber",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "obj_collectable_key",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "keyNumber",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ui_key",
+                    "id",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ui_key",
+                    "gotKey",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "keyNumber",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "ui_key",
+                    "id",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ui_key",
+                    "gotKey",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "ui_key",
+                "gotKey",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "ui_key",
+                "Animation",
+                "=",
+                "\"anim_ui_key\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Big Door",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_big_door",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "keyNumber",
+                "!=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "obj_collision_tile",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_big_door",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "keyNumber",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "obj_collision_tile",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 33,
@@ -2010,6 +2692,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "ui",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

@@ -491,7 +491,7 @@
                 "value": "MettreAutour"
               },
               "parameters": [
-                "DirectionArrow",
+                "ui_direction_arrow",
                 "obj_player",
                 "0",
                 "0"
@@ -502,7 +502,7 @@
                 "value": "RotateTowardPosition"
               },
               "parameters": [
-                "DirectionArrow",
+                "ui_direction_arrow",
                 "CursorX()",
                 "CursorY()",
                 "0",
