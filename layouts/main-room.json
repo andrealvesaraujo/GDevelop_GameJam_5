@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.4307927813134378,
+    "zoomFactor": 0.7130377630690482,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -67,8 +67,8 @@
       "layer": "",
       "name": "tile_floor_1",
       "persistentUuid": "c7908605-fc81-4a61-9125-47ca0441c340",
-      "width": 272,
-      "x": 512,
+      "width": 400,
+      "x": 448,
       "y": 240,
       "zOrder": 1,
       "numberProperties": [],
@@ -84,8 +84,8 @@
       "layer": "",
       "name": "tile_wall_1",
       "persistentUuid": "9d254a9a-c4b4-4210-b40b-7848b7047738",
-      "width": 272,
-      "x": 512,
+      "width": 400,
+      "x": 448,
       "y": 192,
       "zOrder": 4,
       "numberProperties": [],
@@ -169,8 +169,8 @@
       "layer": "",
       "name": "tile_black_1",
       "persistentUuid": "856b0d82-8036-4242-b8f4-c6b7a6ca2213",
-      "width": 272,
-      "x": 512,
+      "width": 400,
+      "x": 448,
       "y": 176,
       "zOrder": 9,
       "numberProperties": [],
@@ -467,7 +467,7 @@
       "name": "tile_wall_1",
       "persistentUuid": "731ce2c0-844a-4bab-8487-a22fe5a450de",
       "width": 0,
-      "x": 512,
+      "x": 448,
       "y": 208,
       "zOrder": 29,
       "numberProperties": [],
@@ -483,7 +483,7 @@
       "name": "tile_wall_1",
       "persistentUuid": "495fcf89-d9ce-48c3-b0d1-9e3053857919",
       "width": 0,
-      "x": 768,
+      "x": 832,
       "y": 208,
       "zOrder": 30,
       "numberProperties": [],
@@ -499,7 +499,7 @@
       "name": "tile_black_1",
       "persistentUuid": "2652963a-81d7-4947-951f-e051f0048833",
       "width": 0,
-      "x": 768,
+      "x": 832,
       "y": 192,
       "zOrder": 31,
       "numberProperties": [],
@@ -515,7 +515,7 @@
       "name": "tile_black_1",
       "persistentUuid": "caaeefb4-5657-4fb2-a758-978619509b1b",
       "width": 0,
-      "x": 512,
+      "x": 448,
       "y": 192,
       "zOrder": 32,
       "numberProperties": [],
@@ -807,7 +807,7 @@
       "name": "obj_door",
       "persistentUuid": "56328216-8e82-411e-8038-f6f5a7e52b4b",
       "width": 0,
-      "x": 544,
+      "x": 496,
       "y": 208,
       "zOrder": 49,
       "numberProperties": [],
@@ -823,7 +823,7 @@
       "name": "obj_door",
       "persistentUuid": "4b50261a-53bc-44cd-bcf6-1abcb3d6a744",
       "width": 0,
-      "x": 736,
+      "x": 784,
       "y": 208,
       "zOrder": 50,
       "numberProperties": [],
@@ -938,6 +938,1554 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "ececbff8-5e76-427d-a8a8-fec268fa4302",
+      "width": 0,
+      "x": 544,
+      "y": 208,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "cb8e4c19-f4a0-4b1b-948c-917d51f775f6",
+      "width": 0,
+      "x": 544,
+      "y": 192,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "fb0cc176-0ace-4a06-a00e-65464b852a83",
+      "width": 0,
+      "x": 736,
+      "y": 208,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "00f2f51e-15fa-494d-ac3d-daf22d2b2745",
+      "width": 0,
+      "x": 736,
+      "y": 192,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "ce2559c4-3db8-4a00-8c27-f80b60323cac",
+      "width": 16,
+      "x": 432,
+      "y": 208,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "4144684d-db75-472a-90c5-72857a72cd60",
+      "width": 16,
+      "x": 848,
+      "y": 208,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 176,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "ec082724-e23e-48d3-98d7-a01ab769751f",
+      "width": 16,
+      "x": 496,
+      "y": 400,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 176,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "22aa9bc7-f99c-41f7-a2c3-7dc387fc8da0",
+      "width": 16,
+      "x": 784,
+      "y": 400,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "4edacc68-52f6-447f-a6f5-c697fcf2dbc1",
+      "width": 64,
+      "x": 432,
+      "y": 400,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "bc494ee2-440a-4b37-82c4-593b93868ccc",
+      "width": 64,
+      "x": 800,
+      "y": 400,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "3c9dc20a-df53-4b5e-8340-d61689beb915",
+      "width": 112,
+      "x": 496,
+      "y": 576,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "f9dae373-b6c0-4b26-8251-33ac1e2e8386",
+      "width": 112,
+      "x": 688,
+      "y": 576,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "5ab89598-dd31-40c6-8afe-856f8b7c8d11",
+      "width": 112,
+      "x": 592,
+      "y": 592,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 336,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "d55cd709-189c-4607-9bf3-d8b5cc62fd99",
+      "width": 240,
+      "x": 64,
+      "y": 64,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_water_1",
+      "persistentUuid": "ad9c0359-f2f9-4dd1-8002-9e6701652efb",
+      "width": 240,
+      "x": 64,
+      "y": 224,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_water_1",
+      "persistentUuid": "a7f0f42c-3859-4504-856f-943b3e90a075",
+      "width": 112,
+      "x": 64,
+      "y": 288,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_water_1",
+      "persistentUuid": "0c875c9e-6edc-4b4e-b70c-4a9939975dab",
+      "width": 48,
+      "x": 192,
+      "y": 64,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "b7bdfc08-5ef6-4b84-8916-68131d579b27",
+      "width": 16,
+      "x": 48,
+      "y": 48,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "abac5f62-c3b0-41e3-9716-dd370ed13010",
+      "width": 16,
+      "x": 304,
+      "y": 48,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "7312d73a-af86-4e66-a8fd-3f9cea8cf8ef",
+      "width": 240,
+      "x": 64,
+      "y": 16,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "721f30a7-5497-4c83-b162-f18c40753e8e",
+      "width": 48,
+      "x": 192,
+      "y": 32,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "b8d1961e-2ac8-4f46-aa41-adbb814c0ef5",
+      "width": 48,
+      "x": 192,
+      "y": 16,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "85a3fdfd-850d-43c1-860b-48d0c7fda2d8",
+      "width": 176,
+      "x": 64,
+      "y": 375,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "fc7afd5a-bef2-443b-801a-1cec6608c964",
+      "width": 48,
+      "x": 256,
+      "y": 375,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "29608ea0-2c7b-4db4-9e1f-20b6421757dc",
+      "width": 176,
+      "x": 64,
+      "y": 384,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "cc624d38-b42d-4f44-80f8-394453383e41",
+      "width": 48,
+      "x": 256,
+      "y": 384,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "7eca1137-1628-4a1e-b44c-a4b8ca7191c5",
+      "width": 48,
+      "x": 224,
+      "y": 400,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "562972d0-c52d-4952-b5e1-b96ad92ba114",
+      "width": 48,
+      "x": 224,
+      "y": 391,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "bff89d39-6393-4280-b525-ea4ef9d4132a",
+      "width": 16,
+      "x": 224,
+      "y": 384,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "2942ed3c-f892-4ea4-895b-a49376c4275f",
+      "width": 16,
+      "x": 256,
+      "y": 384,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "b8df8b17-949f-4b0a-8a5c-18456ec05257",
+      "width": 304,
+      "x": 944,
+      "y": 288,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 208,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "3b75894b-f649-4cef-961b-28505b1de517",
+      "width": 96,
+      "x": 1152,
+      "y": 80,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "c4a350c4-75c2-4e76-b7d7-805b9459da6d",
+      "width": 144,
+      "x": 944,
+      "y": 80,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "b2b1f3ac-aaae-4e11-995c-094f63681e27",
+      "width": 64,
+      "x": 1088,
+      "y": 112,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "8f97d7e8-e44e-4bf6-bda6-86b506070bd2",
+      "width": 64,
+      "x": 1040,
+      "y": 240,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "087cf775-98c5-4aa3-b438-e73d68195d30",
+      "width": 240,
+      "x": 944,
+      "y": 407,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "f4e5b6df-3124-4f1e-827e-8254abbca832",
+      "width": 48,
+      "x": 1200,
+      "y": 407,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "19e856cc-7811-4e07-ad53-a0b9285bb513",
+      "width": 240,
+      "x": 944,
+      "y": 407,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "f77c61c9-dce3-4722-8a6b-e7b68f5dea75",
+      "width": 48,
+      "x": 1200,
+      "y": 407,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "ddccb7cb-9be7-450d-8de0-bd329b14c06d",
+      "width": 48,
+      "x": 1168,
+      "y": 423,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "5afc248a-c8f0-47c9-89b6-dd59debb760a",
+      "width": 48,
+      "x": 1168,
+      "y": 423,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "4d39db1a-b7ce-4f63-80ed-6ad1ae2174d3",
+      "width": 22,
+      "x": 1162,
+      "y": 407,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "a729e04c-b25a-4816-a652-7e8c8d08655b",
+      "width": 16,
+      "x": 1200,
+      "y": 407,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "ae3585da-f05b-478f-b6bd-d46364876fc7",
+      "width": 0,
+      "x": 1184,
+      "y": 416,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "698c2071-b3b0-4d99-97b1-7aabfd3d507c",
+      "width": 96,
+      "x": 944,
+      "y": 240,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "a088ed6c-0821-4e44-8423-2e3dce9f385a",
+      "width": 64,
+      "x": 1040,
+      "y": 192,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "5d5747ef-d0ea-4b1c-a9b4-2a6a60c32ab5",
+      "width": 48,
+      "x": 1104,
+      "y": 240,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "9a3ba7f8-f3cb-427e-9dd3-a16559c48a96",
+      "width": 96,
+      "x": 1152,
+      "y": 32,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "deb19b8d-da28-42d4-a161-984dec23983f",
+      "width": 144,
+      "x": 944,
+      "y": 32,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "b3c4a0db-7663-4146-89d2-bfe1cb2438a7",
+      "width": 64,
+      "x": 1088,
+      "y": 64,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "af0d15a0-8a7b-4403-8a2a-ef52c774520b",
+      "width": 208,
+      "x": 944,
+      "y": 135,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "7988a2f2-8326-4fe4-b77a-0a0297d880a8",
+      "width": 208,
+      "x": 944,
+      "y": 144,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_torch",
+      "persistentUuid": "2104df50-b2c0-4eac-b05f-66d1fef14881",
+      "width": 0,
+      "x": 1040,
+      "y": 224,
+      "zOrder": 89,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_torch",
+      "persistentUuid": "242552a7-759c-4b38-8a13-9c88e05ebc55",
+      "width": 0,
+      "x": 960,
+      "y": 368,
+      "zOrder": 91,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "lit",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_torch",
+      "persistentUuid": "42408721-e2d0-4fd9-8102-bc71342b1e7a",
+      "width": 0,
+      "x": 1088,
+      "y": 224,
+      "zOrder": 92,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_barrier_wood",
+      "persistentUuid": "2a5a7198-d40d-442d-ae79-e14a7cd943d6",
+      "width": 0,
+      "x": 1152,
+      "y": 256,
+      "zOrder": 93,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_barrier_wood",
+      "persistentUuid": "aa3274b9-8c88-4987-8adb-cd4b0febd1bb",
+      "width": 0,
+      "x": 1168,
+      "y": 256,
+      "zOrder": 94,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_barrier_wood",
+      "persistentUuid": "644a8705-f217-4072-9e47-b04912a6adbc",
+      "width": 0,
+      "x": 1200,
+      "y": 256,
+      "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_barrier_wood",
+      "persistentUuid": "96b9adbf-28fa-4ab0-979a-a7f2aa555c5c",
+      "width": 0,
+      "x": 1216,
+      "y": 272,
+      "zOrder": 96,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_barrier_wood",
+      "persistentUuid": "709d7acd-5e47-44aa-b8fc-db0e1235e7a2",
+      "width": 0,
+      "x": 1232,
+      "y": 256,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_barrier_wood",
+      "persistentUuid": "6420c31c-c91e-4ed3-9cac-f83cbef9ba7c",
+      "width": 0,
+      "x": 1136,
+      "y": 112,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_barrier_wood",
+      "persistentUuid": "94e70211-9153-4bc1-bac5-711f0707c167",
+      "width": 0,
+      "x": 1120,
+      "y": 112,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_torch",
+      "persistentUuid": "f7742933-88a2-4032-be6e-0efb1fb315c8",
+      "width": 0,
+      "x": 1168,
+      "y": 64,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "lit",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "3bf18b3f-7043-4a5f-8089-3638c824fc8f",
+      "width": 0,
+      "x": 80,
+      "y": 352,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "de5f72d9-b420-4e50-918d-ea7758494193",
+      "width": 0,
+      "x": 288,
+      "y": 304,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "993e3663-3d44-4be8-9bab-7e293d5780b4",
+      "width": 0,
+      "x": 192,
+      "y": 96,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "path_",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "melted",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "8f88c6dd-c4d4-420d-b195-087289c5fc53",
+      "width": 0,
+      "x": 96,
+      "y": 128,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "melted",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_torch",
+      "persistentUuid": "67e0239b-2ca4-4a71-8a15-8cb89d4ae4b2",
+      "width": 0,
+      "x": 80,
+      "y": 48,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_torch",
+      "persistentUuid": "bcf09ba6-50d7-452e-972c-a218d3c62c85",
+      "width": 0,
+      "x": 176,
+      "y": 272,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "lit",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "ef123fc5-b820-4bb9-9d03-dadf466a3844",
+      "width": 0,
+      "x": 160,
+      "y": 160,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "f447e095-5336-428c-b970-dbb7016eea4c",
+      "width": 0,
+      "x": 208,
+      "y": 96,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "path_",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "a7588032-2084-4616-bb6b-7d2a6369e762",
+      "width": 0,
+      "x": 224,
+      "y": 96,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "path_",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collectable_key",
+      "persistentUuid": "dc951bfa-e1f6-4cf5-a567-3993ddb48891",
+      "width": 0,
+      "x": 272,
+      "y": 80,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collectable_key",
+      "persistentUuid": "0118145e-8907-4ebe-9040-a7b116f32867",
+      "width": 0,
+      "x": 976,
+      "y": 96,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_bridge_1",
+      "persistentUuid": "e0a3b556-3e6e-424c-bb34-1c5ce2aca0e2",
+      "width": 32,
+      "x": 96,
+      "y": 224,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "95c044b4-fd95-4094-bde6-8081f2c209dd",
+      "width": 0,
+      "x": 288,
+      "y": 32,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "d869649b-8d27-450b-ac96-3d400c4bacda",
+      "width": 0,
+      "x": 288,
+      "y": 16,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "994091a7-e792-4f88-93d1-990807ec5f74",
+      "width": 0,
+      "x": 64,
+      "y": 32,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "e934f62a-29ae-477f-919e-dbaa540586d7",
+      "width": 0,
+      "x": 64,
+      "y": 16,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "715768bf-6ea5-46db-9bf9-6386ce8850ce",
+      "width": 0,
+      "x": 944,
+      "y": 256,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "a5cf478a-26ba-4402-853b-cf2bb7608d4f",
+      "width": 0,
+      "x": 944,
+      "y": 240,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "a3a5cc98-152c-49b2-a98e-5d1ea1321966",
+      "width": 0,
+      "x": 1232,
+      "y": 48,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "da6a08f1-dfcd-4a57-ae6b-3c4010c2b576",
+      "width": 0,
+      "x": 1232,
+      "y": 32,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "9da2e943-aa61-4d68-90ff-7aca0015b172",
+      "width": 0,
+      "x": 944,
+      "y": 48,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "dc15c40d-2ef1-4a8e-bca5-0b04247ad2ca",
+      "width": 0,
+      "x": 944,
+      "y": 32,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "6a14c274-3dc4-4c1e-84b7-b88bfa690293",
+      "width": 16,
+      "x": 928,
+      "y": 32,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 368,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "3188f366-c8be-400d-b11f-8ece3a2b1e6f",
+      "width": 16,
+      "x": 1248,
+      "y": 48,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "34a17905-b871-4878-8881-1c041e0ca13f",
+      "width": 64,
+      "x": 1088,
+      "y": 32,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "ef7fa5ff-7352-47c4-b507-fdb88cb5bd50",
+      "width": 48,
+      "x": 1104,
+      "y": 144,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_collision_tile",
+      "persistentUuid": "ae797066-1cee-4fb2-8aff-558fcb430fc9",
+      "width": 16,
+      "x": 1024,
+      "y": 192,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -992,504 +2540,6 @@
         {
           "name": "YSort",
           "type": "YSort::YSort"
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "obj_torch",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "lit",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "anim_torch_unlit",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\sprites\\objects\\spr_torch_unlit.png",
-                  "points": [
-                    {
-                      "name": "fire",
-                      "x": 8,
-                      "y": 12
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "anim_torch_lit",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.16666666666666666,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\sprites\\objects\\spr_torch_lit_0.png",
-                  "points": [
-                    {
-                      "name": "fire",
-                      "x": 8,
-                      "y": 12
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\sprites\\objects\\spr_torch_lit_1.png",
-                  "points": [
-                    {
-                      "name": "fire",
-                      "x": 8,
-                      "y": 12
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\sprites\\objects\\spr_torch_lit_2.png",
-                  "points": [
-                    {
-                      "name": "fire",
-                      "x": 8,
-                      "y": 12
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\sprites\\objects\\spr_torch_lit_3.png",
-                  "points": [
-                    {
-                      "name": "fire",
-                      "x": 8,
-                      "y": 12
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 9
-                      },
-                      {
-                        "x": 15,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "obj_ice",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "melted",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "folded": true,
-          "name": "id",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "anim_ice_cube",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\sprites\\objects\\spr_ice_cube.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 15,
-                        "y": 0
-                      },
-                      {
-                        "x": 15,
-                        "y": 16
-                      },
-                      {
-                        "x": 1,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "anim_ice_melted",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\sprites\\objects\\spr_ice_melted.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 15,
-                        "y": 0
-                      },
-                      {
-                        "x": 15,
-                        "y": 16
-                      },
-                      {
-                        "x": 1,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "obj_barrier_wood",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "burnt",
-          "type": "boolean",
-          "value": false
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "anim_barrier_intact",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\sprites\\objects\\spr_wood_barrier.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 15,
-                        "y": 3
-                      },
-                      {
-                        "x": 15,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "anim_barrier_burnt",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\sprites\\objects\\spr_barrier_burnt.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 3
-                      },
-                      {
-                        "x": 15,
-                        "y": 3
-                      },
-                      {
-                        "x": 15,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1856,14 +2906,22 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "tile_water_1",
+      "texture": "spr_tile_water_2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "obj_barrier_wood"
-      },
       {
         "objectName": "tile_floor_1"
       },
@@ -1875,12 +2933,6 @@
       },
       {
         "objectName": "obj_collision_tile"
-      },
-      {
-        "objectName": "obj_torch"
-      },
-      {
-        "objectName": "obj_ice"
       },
       {
         "objectName": "particle_torch_sparks"
@@ -1899,6 +2951,9 @@
       },
       {
         "objectName": "WarningTitle"
+      },
+      {
+        "objectName": "tile_water_1"
       }
     ]
   },
@@ -2037,6 +3092,13 @@
       "target": "playerEvents"
     },
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "objectEvents"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -2051,13 +3113,7 @@
             "",
             ""
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
             "value": "SeparateFromObjects"
@@ -2321,526 +3377,6 @@
       "parameters": []
     },
     {
-      "colorB": 33,
-      "colorG": 211,
-      "colorR": 126,
-      "creationTime": 0,
-      "folded": true,
-      "name": "Interactables",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "colorB": 228,
-          "colorG": 74,
-          "colorR": 210,
-          "creationTime": 0,
-          "name": "Torch",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_torch",
-                    "lit",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "obj_torch",
-                    "Animation",
-                    "=",
-                    "\"anim_torch_lit\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_torch",
-                    "lit",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "obj_torch",
-                    "Animation",
-                    "=",
-                    "\"anim_torch_unlit\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Projectile Contact"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_torch",
-                    "lit",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "skill_projectile_ice",
-                    "obj_torch",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "skill_projectile_ice",
-                    "obj_torch.PointX(\"fire\")",
-                    "obj_torch.PointY(\"fire\")"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_torch",
-                    "lit",
-                    "False"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_torch",
-                    "lit",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "skill_projectile_fire",
-                    "obj_torch",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "skill_projectile_fire",
-                    "obj_torch.PointX(\"fire\")",
-                    "obj_torch.PointY(\"fire\")"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_torch",
-                    "lit",
-                    "True"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 74,
-          "colorR": 215,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Ice Cube",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_ice",
-                    "melted",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "obj_ice",
-                    "Animation",
-                    "=",
-                    "\"anim_ice_melted\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "obj_ice",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_ice",
-                    "melted",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "obj_ice",
-                    "Animation",
-                    "=",
-                    "\"anim_ice_cube\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "obj_player",
-                    "obj_ice",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Projectile Contact"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_ice",
-                    "melted",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "skill_projectile_ice",
-                    "obj_ice",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_ice",
-                    "melted",
-                    "False"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_ice",
-                    "melted",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "skill_projectile_fire",
-                    "obj_ice",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_ice",
-                    "melted",
-                    "True"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 74,
-          "colorG": 128,
-          "colorR": 228,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Wooden Barrier",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_barrier_wood",
-                    "burnt",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "obj_barrier_wood",
-                    "Animation",
-                    "=",
-                    "\"anim_barrier_burnt\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "obj_barrier_wood",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_barrier_wood",
-                    "burnt",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "obj_barrier_wood",
-                    "Animation",
-                    "=",
-                    "\"anim_barrier_intact\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "obj_player",
-                    "obj_barrier_wood",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Projectile Contact"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_barrier_wood",
-                    "burnt",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "skill_projectile_fire",
-                    "obj_barrier_wood",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "obj_barrier_wood",
-                    "burnt",
-                    "True"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -2908,394 +3444,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
-      "name": "Skill Gem",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Qual vai ser a regra de resetar a temperatura e skills do player para animation basico? Apenas quando entrar na sala principal?"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "skillState",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "Animation",
-                "=",
-                "\"anim_skill_neutral\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "skillState",
-                "=",
-                "-1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "Animation",
-                "=",
-                "\"anim_skill_cold\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "skillState",
-                "=",
-                "-2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "Animation",
-                "=",
-                "\"anim_skill_ice\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "skillState",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "Animation",
-                "=",
-                "\"anim_skill_warm\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "skillState",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "Animation",
-                "=",
-                "\"anim_skill_fire\""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
-      "name": "Temperature Control",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "obj_ice",
-                "melted",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "obj_player",
-                "obj_ice",
-                "40",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "obj_player",
-                "temperature",
-                "=",
-                "-50"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "skillState",
-                "=",
-                "-1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "obj_ice",
-                "melted",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "obj_player",
-                "obj_ice",
-                "25",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "obj_player",
-                "temperature",
-                "=",
-                "-100"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "skillState",
-                "=",
-                "-2"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "obj_torch",
-                "lit",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "obj_player",
-                "obj_torch",
-                "40",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "obj_player",
-                "temperature",
-                "=",
-                "50"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "skillState",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "obj_torch",
-                "lit",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "obj_player",
-                "obj_torch",
-                "25",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "obj_player",
-                "temperature",
-                "=",
-                "100"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "ui_skill_state",
-                "skillState",
-                "=",
-                "2"
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
