@@ -66,6 +66,40 @@
           "value": 2
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 54,
+      "keepRatio": true,
+      "layer": "ui",
+      "name": "RedButton",
+      "persistentUuid": "48e877d1-1560-4a4a-a17f-f7ca59487dbf",
+      "width": 96,
+      "x": 618,
+      "y": 39,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 23,
+      "keepRatio": true,
+      "layer": "ui",
+      "name": "WarningTitle",
+      "persistentUuid": "76bc880d-ba5d-4b24-baa9-36bcb9880814",
+      "width": 185,
+      "x": 577,
+      "y": 5,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -78,7 +112,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.5117784035210179,
     "windowMask": false
   }
 }

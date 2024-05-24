@@ -123,8 +123,8 @@
               "parameters": [
                 "obj_player",
                 "temperature",
-                "<",
-                "0"
+                "<=",
+                "-100"
               ]
             }
           ],
@@ -152,8 +152,8 @@
               "parameters": [
                 "obj_player",
                 "temperature",
-                ">",
-                "0"
+                ">=",
+                "100"
               ]
             }
           ],
@@ -522,6 +522,17 @@
                 "",
                 "Left"
               ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "obj_player",
+                "skillState",
+                "=",
+                "1"
+              ]
             }
           ],
           "actions": [
@@ -534,7 +545,7 @@
                 "FireBullet",
                 "obj_player.PointX(\"Center\")",
                 "obj_player.PointY(\"Center\")",
-                "skill_projectile_fire",
+                "skill_projectile_ice",
                 "CursorX()",
                 "CursorY()",
                 "400",
@@ -552,7 +563,18 @@
               },
               "parameters": [
                 "",
-                "Right"
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "obj_player",
+                "skillState",
+                "=",
+                "2"
               ]
             }
           ],
@@ -566,7 +588,7 @@
                 "FireBullet",
                 "obj_player.PointX(\"Center\")",
                 "obj_player.PointY(\"Center\")",
-                "skill_projectile_ice",
+                "skill_projectile_fire",
                 "CursorX()",
                 "CursorY()",
                 "400",
