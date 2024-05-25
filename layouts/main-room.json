@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 2.1301659159002977,
+    "zoomFactor": 2.432347728232853,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -649,8 +649,8 @@
       "name": "obj_player",
       "persistentUuid": "553be06f-acca-4a61-b289-c23647646fb0",
       "width": 32,
-      "x": 640,
-      "y": 525,
+      "x": 649,
+      "y": 546,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -665,8 +665,8 @@
       "name": "ui_direction_arrow",
       "persistentUuid": "4e9c2935-bef6-484d-98d4-eed9cfaa3820",
       "width": 0,
-      "x": 632,
-      "y": 498,
+      "x": 641,
+      "y": 519,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -1151,8 +1151,8 @@
       "layer": "",
       "name": "tile_water_1",
       "persistentUuid": "ad9c0359-f2f9-4dd1-8002-9e6701652efb",
-      "width": 240,
-      "x": 64,
+      "width": 176,
+      "x": 128,
       "y": 224,
       "zOrder": 2,
       "numberProperties": [],
@@ -1168,8 +1168,8 @@
       "layer": "",
       "name": "tile_water_1",
       "persistentUuid": "a7f0f42c-3859-4504-856f-943b3e90a075",
-      "width": 112,
-      "x": 64,
+      "width": 48,
+      "x": 128,
       "y": 288,
       "zOrder": 2,
       "numberProperties": [],
@@ -2034,7 +2034,7 @@
           "folded": true,
           "name": "melted",
           "type": "boolean",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -2055,9 +2055,15 @@
       "initialVariables": [
         {
           "folded": true,
+          "name": "path_",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
           "name": "melted",
           "type": "boolean",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -2769,6 +2775,40 @@
       "x": 640,
       "y": -144,
       "zOrder": 116,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_water_1",
+      "persistentUuid": "14bfdc44-77e3-48aa-8da4-61790e27733e",
+      "width": 32,
+      "x": 64,
+      "y": 288,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_water_1",
+      "persistentUuid": "5c92a3f4-7852-420c-8053-30ee953bd5c0",
+      "width": 32,
+      "x": 64,
+      "y": 224,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4036,7 +4076,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Collectable Key",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4198,7 +4237,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
