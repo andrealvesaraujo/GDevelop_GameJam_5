@@ -3744,12 +3744,6 @@
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
-        },
-        {
-          "name": "LinearMovement",
-          "type": "LinearMovement::LinearMovement",
-          "SpeedX": 0,
-          "SpeedY": 0
         }
       ],
       "animations": [

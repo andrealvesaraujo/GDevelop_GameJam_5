@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 2.432347728232853,
+    "zoomFactor": 1.1343715797161094,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -649,8 +649,8 @@
       "name": "obj_player",
       "persistentUuid": "553be06f-acca-4a61-b289-c23647646fb0",
       "width": 32,
-      "x": 649,
-      "y": 546,
+      "x": 648,
+      "y": 554,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -665,8 +665,8 @@
       "name": "ui_direction_arrow",
       "persistentUuid": "4e9c2935-bef6-484d-98d4-eed9cfaa3820",
       "width": 0,
-      "x": 641,
-      "y": 519,
+      "x": 640,
+      "y": 527,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -2081,7 +2081,14 @@
       "zOrder": 105,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "lit",
+          "type": "boolean",
+          "value": true
+        }
+      ]
     },
     {
       "angle": 0,
@@ -2812,6 +2819,107 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "904010cf-ea16-431a-b642-b8c79cd2d6f8",
+      "width": 0,
+      "x": 128,
+      "y": 144,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "17846f24-1188-4589-854a-41affd6b7165",
+      "width": 0,
+      "x": 144,
+      "y": 112,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "c2832959-e0a8-4d7c-b6af-393b33c92b98",
+      "width": 0,
+      "x": 192,
+      "y": 144,
+      "zOrder": 1070,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "path_",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "b72bd8ef-df24-4f96-a498-207b86188535",
+      "width": 0,
+      "x": 208,
+      "y": 144,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "path_",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_ice",
+      "persistentUuid": "3dde7ec0-c631-40fa-aae3-d90669ce5c2f",
+      "width": 0,
+      "x": 224,
+      "y": 144,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "path_",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     }
   ],
   "objects": [
@@ -4692,6 +4800,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -4793,10 +4906,6 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
-      "name": "LinearMovement",
-      "type": "LinearMovement::LinearMovement"
     },
     {
       "name": "Opacity",
