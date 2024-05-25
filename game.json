@@ -1027,6 +1027,32 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
           "name": "Green Button_Pressed.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Button White_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Button White_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/f621ac7906f85e727087c0a01747b2250bed4b520c2b4b2d80759ade57e426f7_Blank Button White_Pressed.png",
+          "name": "Blank Button White_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Button White_Unpressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Button White_Unpressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/32x32 Pixel Arcade Stick and Buttons/38d85ff526274d68e0a345fc35a8ff948c306644b65043670466e394c85c8ab0_Blank Button White_Unpressed.png",
+          "name": "Blank Button White_Unpressed.png"
+        }
       }
     ],
     "resourceFolders": []

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 2.35300366787219,
+    "zoomFactor": 1.0973679695629646,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -649,8 +649,8 @@
       "name": "obj_player",
       "persistentUuid": "553be06f-acca-4a61-b289-c23647646fb0",
       "width": 32,
-      "x": 112,
-      "y": 205,
+      "x": 640,
+      "y": 557,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -665,8 +665,8 @@
       "name": "ui_direction_arrow",
       "persistentUuid": "4e9c2935-bef6-484d-98d4-eed9cfaa3820",
       "width": 0,
-      "x": 104,
-      "y": 178,
+      "x": 632,
+      "y": 530,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -2018,8 +2018,8 @@
       "name": "obj_ice",
       "persistentUuid": "8f88c6dd-c4d4-420d-b195-087289c5fc53",
       "width": 0,
-      "x": 96,
-      "y": 128,
+      "x": 80,
+      "y": 176,
       "zOrder": 104,
       "numberProperties": [],
       "stringProperties": [],
@@ -2745,12 +2745,19 @@
       "name": "obj_ice",
       "persistentUuid": "904010cf-ea16-431a-b642-b8c79cd2d6f8",
       "width": 0,
-      "x": 128,
-      "y": 144,
+      "x": 112,
+      "y": 96,
       "zOrder": 107,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "melted",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     },
     {
       "angle": 0,
@@ -2761,12 +2768,19 @@
       "name": "obj_ice",
       "persistentUuid": "17846f24-1188-4589-854a-41affd6b7165",
       "width": 0,
-      "x": 144,
-      "y": 112,
+      "x": 128,
+      "y": 176,
       "zOrder": 107,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "melted",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     },
     {
       "angle": 90,
@@ -2804,6 +2818,57 @@
       "width": 48,
       "x": 192,
       "y": 160,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor_button_1",
+      "persistentUuid": "763e7dc6-5ca0-4ed7-ad51-67c12da37c14",
+      "width": 16,
+      "x": 80,
+      "y": 144,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor_button_2",
+      "persistentUuid": "59678dac-9aab-4e31-982a-dbb227303142",
+      "width": 16,
+      "x": 144,
+      "y": 144,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_floor_button_3",
+      "persistentUuid": "065970e2-5f35-4860-b127-10ecfc1780f6",
+      "width": 16,
+      "x": 112,
+      "y": 128,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -3700,6 +3765,337 @@
         "characterSize": 50,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "8dc6ead38f64f162322abbad35d1c01384f698e208198e8ad8e5668ef9304b78",
+      "name": "obj_floor_button_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "isPressed",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Pressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank Button White_Pressed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unpressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank Button White_Unpressed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "8dc6ead38f64f162322abbad35d1c01384f698e208198e8ad8e5668ef9304b78",
+      "name": "obj_floor_button_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Pressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank Button White_Pressed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unpressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank Button White_Unpressed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "8dc6ead38f64f162322abbad35d1c01384f698e208198e8ad8e5668ef9304b78",
+      "name": "obj_floor_button_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Pressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank Button White_Pressed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unpressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Blank Button White_Unpressed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3761,6 +4157,15 @@
       },
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "obj_floor_button_1"
+      },
+      {
+        "objectName": "obj_floor_button_2"
+      },
+      {
+        "objectName": "obj_floor_button_3"
       }
     ]
   },
