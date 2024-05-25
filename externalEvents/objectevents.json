@@ -17,6 +17,7 @@
           "colorG": 74,
           "colorR": 210,
           "creationTime": 0,
+          "folded": true,
           "name": "Torch",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -215,6 +216,7 @@
           "colorG": 74,
           "colorR": 215,
           "creationTime": 0,
+          "folded": true,
           "name": "Ice Cube",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -852,7 +854,7 @@
                   },
                   "parameters": [
                     "obj_player",
-                    "obj_ice",
+                    "tile_bridge_1",
                     "",
                     "",
                     ""
@@ -871,17 +873,108 @@
                   ]
                 }
               ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Bridge",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "tile_bridge_1",
+                    "show",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "tile_bridge_1",
+                    "Opacity",
+                    "=",
+                    "255"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "tile_bridge_1",
+                    "show",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "tile_bridge_1",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::Value"
+                  },
+                  "parameters": [
+                    "tile_bridge_1",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "obj_ice",
+                    "obj_player",
                     "tile_water_1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "tile_bridge_1",
                     "",
                     "",
                     ""
@@ -891,12 +984,22 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetObjectVariableAsBoolean"
+                    "value": "SeparateFromObjects"
                   },
                   "parameters": [
-                    "obj_ice",
-                    "path_",
-                    "True"
+                    "obj_player",
+                    "tile_bridge_1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "tile_water_1",
+                    ""
                   ]
                 }
               ]

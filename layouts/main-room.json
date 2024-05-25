@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1343715797161094,
+    "zoomFactor": 2.35300366787219,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -649,8 +649,8 @@
       "name": "obj_player",
       "persistentUuid": "553be06f-acca-4a61-b289-c23647646fb0",
       "width": 32,
-      "x": 648,
-      "y": 554,
+      "x": 112,
+      "y": 205,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -665,8 +665,8 @@
       "name": "ui_direction_arrow",
       "persistentUuid": "4e9c2935-bef6-484d-98d4-eed9cfaa3820",
       "width": 0,
-      "x": 640,
-      "y": 527,
+      "x": 104,
+      "y": 178,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -1180,14 +1180,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 160,
+      "height": 80,
       "keepRatio": true,
       "layer": "",
       "name": "tile_water_1",
       "persistentUuid": "0c875c9e-6edc-4b4e-b70c-4a9939975dab",
       "width": 48,
       "x": 192,
-      "y": 64,
+      "y": 80,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -2016,35 +2016,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "obj_ice",
-      "persistentUuid": "993e3663-3d44-4be8-9bab-7e293d5780b4",
-      "width": 0,
-      "x": 192,
-      "y": 96,
-      "zOrder": 103,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "path_",
-          "type": "boolean",
-          "value": true
-        },
-        {
-          "folded": true,
-          "name": "melted",
-          "type": "boolean",
-          "value": false
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_ice",
       "persistentUuid": "8f88c6dd-c4d4-420d-b195-087289c5fc53",
       "width": 0,
       "x": 96,
@@ -2119,68 +2090,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "obj_ice",
-      "persistentUuid": "ef123fc5-b820-4bb9-9d03-dadf466a3844",
-      "width": 0,
-      "x": 160,
-      "y": 160,
-      "zOrder": 107,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_ice",
-      "persistentUuid": "f447e095-5336-428c-b970-dbb7016eea4c",
-      "width": 0,
-      "x": 208,
-      "y": 96,
-      "zOrder": 103,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "path_",
-          "type": "boolean",
-          "value": true
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_ice",
-      "persistentUuid": "a7588032-2084-4616-bb6b-7d2a6369e762",
-      "width": 0,
-      "x": 224,
-      "y": 96,
-      "zOrder": 103,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "path_",
-          "type": "boolean",
-          "value": true
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "obj_collectable_key",
       "persistentUuid": "dc951bfa-e1f6-4cf5-a567-3993ddb48891",
       "width": 0,
@@ -2222,7 +2131,14 @@
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "built",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     },
     {
       "angle": 0,
@@ -2795,7 +2711,7 @@
       "layer": "",
       "name": "tile_water_1",
       "persistentUuid": "14bfdc44-77e3-48aa-8da4-61790e27733e",
-      "width": 32,
+      "width": 64,
       "x": 64,
       "y": 288,
       "zOrder": 2,
@@ -2812,7 +2728,7 @@
       "layer": "",
       "name": "tile_water_1",
       "persistentUuid": "5c92a3f4-7852-420c-8053-30ee953bd5c0",
-      "width": 32,
+      "width": 64,
       "x": 64,
       "y": 224,
       "zOrder": 2,
@@ -2853,73 +2769,45 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
       "keepRatio": true,
       "layer": "",
-      "name": "obj_ice",
-      "persistentUuid": "c2832959-e0a8-4d7c-b6af-393b33c92b98",
-      "width": 0,
+      "name": "tile_bridge_1",
+      "persistentUuid": "faeab723-f426-43ac-90fe-f4c890e518c8",
+      "width": 32,
+      "x": 200,
+      "y": 120,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "show",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_water_1",
+      "persistentUuid": "c258a4d1-429e-4378-956d-f2aaf89f3647",
+      "width": 48,
       "x": 192,
-      "y": 144,
-      "zOrder": 1070,
+      "y": 160,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "path_",
-          "type": "boolean",
-          "value": false
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_ice",
-      "persistentUuid": "b72bd8ef-df24-4f96-a498-207b86188535",
-      "width": 0,
-      "x": 208,
-      "y": 144,
-      "zOrder": 107,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "path_",
-          "type": "boolean",
-          "value": false
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_ice",
-      "persistentUuid": "3dde7ec0-c631-40fa-aae3-d90669ce5c2f",
-      "width": 0,
-      "x": 224,
-      "y": 144,
-      "zOrder": 107,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "path_",
-          "type": "boolean",
-          "value": false
-        }
-      ]
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -4800,11 +4688,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
