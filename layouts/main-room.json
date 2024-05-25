@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7130377630690482,
+    "zoomFactor": 2.1301659159002977,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -800,15 +800,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 30,
       "keepRatio": true,
       "layer": "",
       "name": "obj_door",
       "persistentUuid": "56328216-8e82-411e-8038-f6f5a7e52b4b",
-      "width": 0,
+      "width": 16,
       "x": 496,
-      "y": 208,
+      "y": 211,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -824,7 +825,7 @@
       "persistentUuid": "4b50261a-53bc-44cd-bcf6-1abcb3d6a744",
       "width": 0,
       "x": 784,
-      "y": 208,
+      "y": 209,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -855,38 +856,6 @@
       "x": 624,
       "y": 192,
       "zOrder": 51,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_collectable_key",
-      "persistentUuid": "763383c6-8ace-4f78-a1fd-bbf9258b0e86",
-      "width": 0,
-      "x": 528,
-      "y": 464,
-      "zOrder": 52,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "obj_collectable_key",
-      "persistentUuid": "cd4b07d4-baba-4c14-8797-c5e52781e55d",
-      "width": 0,
-      "x": 752,
-      "y": 464,
-      "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2486,6 +2455,323 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "obj_start_room_1",
+      "persistentUuid": "5c77aa09-f22c-44d5-8e8d-8bf755a531fd",
+      "width": 16,
+      "x": 240,
+      "y": 368,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "obj_start_room_2",
+      "persistentUuid": "64d73fcb-d92b-4582-830f-3749a0ffd9c8",
+      "width": 16,
+      "x": 1184,
+      "y": 400,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "obj_back_room_1",
+      "persistentUuid": "1584ef9a-2678-4a3f-8c75-963df637c38d",
+      "width": 16,
+      "x": 496,
+      "y": 240,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "obj_back_room_2",
+      "persistentUuid": "7d4fefd2-4c2f-4f08-94fa-dd58419f1676",
+      "width": 16,
+      "x": 784,
+      "y": 240,
+      "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "obj_back_room_3",
+      "persistentUuid": "b91bf541-07c7-400b-9ad1-f5e0ec452bd0",
+      "width": 16,
+      "x": 640,
+      "y": 240,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_floor_1",
+      "persistentUuid": "ba0429df-2da7-4790-b7dd-4627d48de5ed",
+      "width": 144,
+      "x": 576,
+      "y": -152,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "b5ac749b-8357-4aba-8c2a-9b7c9e9c7810",
+      "width": 144,
+      "x": 576,
+      "y": -200,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "e7dadd7d-88c9-4cc2-8c95-07c20ec82819",
+      "width": 16,
+      "x": 560,
+      "y": -168,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "862d793d-de8f-48bd-bcd1-2165681522a5",
+      "width": 16,
+      "x": 720,
+      "y": -168,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "78d5d872-0667-45b3-95b1-681d686fe4f3",
+      "width": 48,
+      "x": 624,
+      "y": -40,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "8c7bf1a1-035a-4e8d-b571-04ab9176ecba",
+      "width": 16,
+      "x": 608,
+      "y": -46,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "6489fddd-afaa-47d6-94fa-88049d416cfe",
+      "width": 16,
+      "x": 672,
+      "y": -46,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "e77eda2c-4d43-4ba0-8db7-4fa1c9de84ca",
+      "width": 48,
+      "x": 576,
+      "y": -55,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 9,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "481b9d4c-0ac4-430f-9c55-3d8e4017cdda",
+      "width": 49,
+      "x": 672,
+      "y": -55,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_black_1",
+      "persistentUuid": "d0dc3964-0206-4079-9e78-173269c5378a",
+      "width": 144,
+      "x": 576,
+      "y": -240,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "layer": "",
+      "name": "obj_start_room_3",
+      "persistentUuid": "bdabf4b4-2c54-4fbc-bca5-3e3813730982",
+      "width": 48,
+      "x": 625,
+      "y": -66,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "0bd20ec7-4944-4019-807d-c3f023faf06d",
+      "width": 32,
+      "x": 576,
+      "y": -56,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "tile_wall_1",
+      "persistentUuid": "0ac2e090-cfe1-4f0e-a40d-11b853485e99",
+      "width": 32,
+      "x": 688,
+      "y": -56,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 11.42857142857143,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Crown",
+      "persistentUuid": "7ed13b7d-cf1d-4984-8763-27d169c3ff96",
+      "width": 20,
+      "x": 640,
+      "y": -144,
+      "zOrder": 116,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2917,6 +3203,467 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "d3a1c4b9d532b1b339e440ebd064f4dc09be85fecaf5458943fe3fa8ed65d154",
+      "name": "obj_start_room_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green Powerup.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 33
+                      },
+                      {
+                        "x": 0,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "d3a1c4b9d532b1b339e440ebd064f4dc09be85fecaf5458943fe3fa8ed65d154",
+      "name": "obj_start_room_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green Powerup.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 33
+                      },
+                      {
+                        "x": 0,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "c7c563e017345c2b6a431613b7749aa74cf5d6a6a687d2402067d18ede8bff37",
+      "name": "obj_back_room_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red Powerup .png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 33
+                      },
+                      {
+                        "x": 0,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "c7c563e017345c2b6a431613b7749aa74cf5d6a6a687d2402067d18ede8bff37",
+      "name": "obj_back_room_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red Powerup .png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 33
+                      },
+                      {
+                        "x": 0,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "d3a1c4b9d532b1b339e440ebd064f4dc09be85fecaf5458943fe3fa8ed65d154",
+      "name": "obj_start_room_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Green Powerup.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 33
+                      },
+                      {
+                        "x": 0,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "c7c563e017345c2b6a431613b7749aa74cf5d6a6a687d2402067d18ede8bff37",
+      "name": "obj_back_room_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red Powerup .png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 0
+                      },
+                      {
+                        "x": 34,
+                        "y": 33
+                      },
+                      {
+                        "x": 0,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "fed2057bcb79996c5a248cb0c27b62cd5f43c1e071cdad8d07044e63ec5299b8",
+      "name": "Crown",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Crown.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 14,
+                        "y": 8
+                      },
+                      {
+                        "x": 0,
+                        "y": 8
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "YOU WON !!!\nCONGRATS !!!\n\n",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "YOU WON !!!\nCONGRATS !!!\n\n",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2954,6 +3701,30 @@
       },
       {
         "objectName": "tile_water_1"
+      },
+      {
+        "objectName": "obj_start_room_1"
+      },
+      {
+        "objectName": "obj_start_room_2"
+      },
+      {
+        "objectName": "obj_start_room_3"
+      },
+      {
+        "objectName": "obj_back_room_1"
+      },
+      {
+        "objectName": "obj_back_room_2"
+      },
+      {
+        "objectName": "obj_back_room_3"
+      },
+      {
+        "objectName": "Crown"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -3052,6 +3823,72 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "obj_start_room_1",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "obj_start_room_2",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "obj_start_room_3",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "obj_back_room_1",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "obj_back_room_2",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "obj_back_room_3",
+            "Opacity",
+            "=",
+            "0"
+          ]
         }
       ],
       "events": [
@@ -3125,6 +3962,74 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Restart button",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "RedButton",
+                "=",
+                "ScreenWidth()/2",
+                "=",
+                "ScreenHeight()-50"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "WarningTitle",
+                "=",
+                "ScreenWidth()/2",
+                "=",
+                "ScreenHeight()-100"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "RedButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main Room\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -3284,12 +4189,17 @@
       "parameters": []
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
-      "name": "Big Door",
+      "name": "Doors",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -3316,6 +4226,15 @@
                 "keyNumber",
                 "!=",
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
               ]
             }
           ],
@@ -3357,6 +4276,15 @@
                 "=",
                 "2"
               ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
             }
           ],
           "actions": [
@@ -3370,6 +4298,240 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "obj_player",
+                "=",
+                "obj_start_room_3.CenterX()",
+                "=",
+                "obj_start_room_3.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_door",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "obj_door",
+                "id",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "obj_player",
+                "=",
+                "obj_start_room_1.CenterX()",
+                "=",
+                "obj_start_room_1.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_door",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "obj_door",
+                "id",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "obj_player",
+                "=",
+                "obj_start_room_2.CenterX()",
+                "=",
+                "obj_start_room_2.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_start_room_1",
+                "obj_player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "obj_player",
+                "=",
+                "obj_back_room_1.CenterX()",
+                "=",
+                "obj_back_room_1.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_start_room_2",
+                "obj_player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "obj_player",
+                "=",
+                "obj_back_room_2.CenterX()",
+                "=",
+                "obj_back_room_2.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_start_room_3",
+                "obj_player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "obj_player",
+                "=",
+                "obj_back_room_3.CenterX()",
+                "=",
+                "obj_back_room_3.CenterY()"
+              ]
             }
           ]
         }
@@ -3381,50 +4543,22 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Restart button",
+      "name": "Winning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "RedButton",
-                "=",
-                "ScreenWidth()/2",
-                "=",
-                "ScreenHeight()-50"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "WarningTitle",
-                "=",
-                "ScreenWidth()/2",
-                "=",
-                "ScreenHeight()-100"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "RedButton",
+                "obj_player",
+                "Crown",
+                "",
+                "",
                 ""
               ]
             }
@@ -3436,7 +4570,7 @@
               },
               "parameters": [
                 "",
-                "\"Main Room\"",
+                "\"Victory Menu\"",
                 ""
               ]
             }

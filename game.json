@@ -870,6 +870,163 @@
         "name": "spr_tile_bridge",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Wall for Green Floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Wall for Green Floor.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Tiles/8047213aed166be80b6c438294b62f7654471a71be735e5345685fed4ce2f627_tiled_Wall for Green Floor.png",
+          "name": "tiled_Wall for Green Floor.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green block.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/68daa7cab60e87c57acba7e0dfbcb4bfed9dae100b347d341887be04fa47ab5c_Green block.png",
+          "name": "Green block.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block_key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green block_key.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/cc0717c97bb69e675b8b02aa88738645efe6598b21cba4f5cba286f24920bf3c_Green block_key.png",
+          "name": "Green block_key.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block_lock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green block_lock.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/3c39fe56c40f57f9634ba27183f7bab3cbc8d6a4ac0baf602a019c5f1f28d3a0_Green block_lock.png",
+          "name": "Green block_lock.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green block_puzzle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green block_puzzle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/b8c5501e328dd5602e9827e0cd79c931e8b2c9e1fe35b107c0d8514f797ec135_Green block_puzzle.png",
+          "name": "Green block_puzzle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Powerup.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/11a11e3fd79e175b083538685f001cbfb62f6e8c68b15b5a25b42daa8b1c018d_Green Powerup.png",
+          "name": "Green Powerup.png"
+        }
+      },
+      {
+        "file": "assets/Gold 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "95aef1c1a58062c7bcb3d61bdaa14c87a5032d3332ec5c257b359cc1efb5ce87_Gold 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/95aef1c1a58062c7bcb3d61bdaa14c87a5032d3332ec5c257b359cc1efb5ce87_Gold 2.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Powerup .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Powerup .png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/485384f00ed093a2338425ccd6bbb480c6ff70508ce90b9e665ad2d42814e370_Red Powerup .png",
+          "name": "Red Powerup .png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crown.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Item/Cards/cfff0fda2887ab79a7b1b88c539616f29e6a6d64019a3bce346cf3e2ba1fb74d_Crown.png",
+          "name": "Crown.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/bff6adc488c7379b21ceba34e9104e861791b2fbb54b4aae167fe90115b92fa3_Green Button_Hovered.png",
+          "name": "Green Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f46d20e99495562ee66ee2f26defdb0788588184bd30b1f7b951ae728ce63d2a_Green Button_Idle.png",
+          "name": "Green Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
+          "name": "Green Button_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -3776,10 +3933,10 @@
         "objectName": "obj_barrier_wood"
       },
       {
-        "objectName": "obj_torch"
+        "objectName": "obj_ice"
       },
       {
-        "objectName": "obj_ice"
+        "objectName": "obj_torch"
       },
       {
         "objectName": "tile_bridge_1"
@@ -3805,6 +3962,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main-room"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/victory-menu"
     }
   ],
   "externalEvents": [
