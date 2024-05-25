@@ -3146,21 +3146,21 @@
           "width": 256
         },
         "Label": {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Recomeçar",
+          "string": "Restart",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 12,
+          "characterSize": 16,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
           },
           "content": {
-            "bold": false,
+            "bold": true,
             "isOutlineEnabled": false,
             "isShadowEnabled": false,
             "italic": false,
@@ -3173,10 +3173,10 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Recomeçar",
+            "text": "Restart",
             "font": "",
             "textAlignment": "center",
-            "characterSize": 12,
+            "characterSize": 16,
             "color": "0;0;0"
           }
         },
@@ -3203,7 +3203,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Com problemas? ",
+      "string": "Having problems?",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -3226,7 +3226,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Com problemas? ",
+        "text": "Having problems?",
         "font": "",
         "textAlignment": "center",
         "characterSize": 20,
@@ -3929,6 +3929,16 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "keyNumber",
+            "=",
+            "0"
+          ]
         }
       ],
       "events": [
@@ -4299,67 +4309,6 @@
               },
               "parameters": [
                 "obj_player",
-                "obj_big_door",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "keyNumber",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "w"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "obj_collision_tile",
-                "Opacity",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "obj_player",
-                "=",
-                "obj_start_room_3.CenterX()",
-                "=",
-                "obj_start_room_3.CenterY()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "obj_player",
                 "obj_door",
                 "",
                 "",
@@ -4398,6 +4347,17 @@
                 "obj_start_room_1.CenterX()",
                 "=",
                 "obj_start_room_1.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "obj_player",
+                "temperature",
+                "=",
+                "0"
               ]
             }
           ]
@@ -4450,6 +4410,89 @@
                 "=",
                 "obj_start_room_2.CenterY()"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "obj_player",
+                "temperature",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_big_door",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "keyNumber",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "obj_collision_tile",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "obj_player",
+                "=",
+                "obj_start_room_3.CenterX()",
+                "=",
+                "obj_start_room_3.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "obj_player",
+                "temperature",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -4489,6 +4532,17 @@
                 "obj_back_room_1.CenterX()",
                 "=",
                 "obj_back_room_1.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "obj_player",
+                "temperature",
+                "=",
+                "0"
               ]
             }
           ]
@@ -4530,6 +4584,17 @@
                 "=",
                 "obj_back_room_2.CenterY()"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "obj_player",
+                "temperature",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -4569,6 +4634,17 @@
                 "obj_back_room_3.CenterX()",
                 "=",
                 "obj_back_room_3.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "obj_player",
+                "temperature",
+                "=",
+                "0"
               ]
             }
           ]
@@ -4699,6 +4775,10 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
     },
@@ -4713,6 +4793,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "LinearMovement",
+      "type": "LinearMovement::LinearMovement"
     },
     {
       "name": "Opacity",
