@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Start Menu",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -1258,6 +1258,33 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/3816335cb845d8f0e43630964d049ace2507f39e08aec0bb89068eeaece2e7da_Sound 7.aac",
           "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/A Very Brady Special.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "40c36d532f9a71353202943b168ed7ff5014703f9689680f4e9eb4c82c3460c8_A Very Brady Special.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Romantic Sentimental/40c36d532f9a71353202943b168ed7ff5014703f9689680f4e9eb4c82c3460c8_A Very Brady Special.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Ground Layer 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Ground Layer 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Elements/4b851fc9189ec8d80bdfd04a006dcaa293fb0ff2b7863a66dd348bfe08d0d195_tiled_Ground Layer 1.png",
+          "name": "tiled_Ground Layer 1.png"
         }
       }
     ],
@@ -4748,6 +4775,10 @@
     }
   ],
   "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start-menu"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main-room"
