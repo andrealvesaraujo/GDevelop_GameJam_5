@@ -1161,6 +1161,104 @@
         "name": "assets\\sprites\\player\\spr_player_walk_up4.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Hidden Truth.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "eaaf2193c7718e7b6d153b6f614c763f14e3c4b4f541416b8c7793be15d76d4f_Hidden Truth.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Horror/eaaf2193c7718e7b6d153b6f614c763f14e3c4b4f541416b8c7793be15d76d4f_Hidden Truth.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Save your time.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "46e712d131538a7309d65c4baa5505b7fe73b5a35ad3228bbed5ebb3657adf11_Save your time.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/New Hero In Town/46e712d131538a7309d65c4baa5505b7fe73b5a35ad3228bbed5ebb3657adf11_Save your time.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Gold 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "97701ff6384d4127d73de32c166e50e4e65cf893c7f781956fe966f192812d0b_Gold 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/97701ff6384d4127d73de32c166e50e4e65cf893c7f781956fe966f192812d0b_Gold 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Gold 3.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "786077b9362268831e792cd25a0aa88c36af896962d3e558c3ff8b563a99f310_Gold 3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/786077b9362268831e792cd25a0aa88c36af896962d3e558c3ff8b563a99f310_Gold 3.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Gun 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "265701b04cb41976c67820a196c0b3cbc2f98351032b9e710b853da1a5b7ff02_Gun 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/265701b04cb41976c67820a196c0b3cbc2f98351032b9e710b853da1a5b7ff02_Gun 2.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Gun 4.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "6d326aaa7459782a48b425e2ff31e4c19473379e431c82cb3c8b3d50fb9540eb_Gun 4.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/6d326aaa7459782a48b425e2ff31e4c19473379e431c82cb3c8b3d50fb9540eb_Gun 4.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Sound 7.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3816335cb845d8f0e43630964d049ace2507f39e08aec0bb89068eeaece2e7da_Sound 7.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/3816335cb845d8f0e43630964d049ace2507f39e08aec0bb89068eeaece2e7da_Sound 7.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

@@ -232,6 +232,18 @@
             "=",
             "ScreenHeight()/2-100"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "46e712d131538a7309d65c4baa5505b7fe73b5a35ad3228bbed5ebb3657adf11_Save your time.aac",
+            "yes",
+            "50",
+            "1"
+          ]
         }
       ]
     },
