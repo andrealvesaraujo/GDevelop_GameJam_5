@@ -773,6 +773,16 @@
                     "obj_barrier_wood",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "obj_barrier_wood",
+                    "=",
+                    "2"
+                  ]
                 }
               ]
             },
