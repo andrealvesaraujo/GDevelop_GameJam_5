@@ -4651,14 +4651,6 @@
       "actions": [
         {
           "type": {
-            "value": "PlayerAuthentication::DisplayAuthenticationBanner"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "ZoomCamera"
           },
           "parameters": [
